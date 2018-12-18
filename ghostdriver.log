@@ -1,0 +1,22 @@
+[INFO  - 2018-12-16T13:39:19.255Z] GhostDriver - Main - running on port 61634
+[INFO  - 2018-12-16T13:39:23.048Z] Session [ff59e020-0137-11e9-a6fc-590e50b39ef4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-12-16T13:39:23.048Z] Session [ff59e020-0137-11e9-a6fc-590e50b39ef4] - page.customHeaders:  - {}
+[INFO  - 2018-12-16T13:39:23.048Z] Session [ff59e020-0137-11e9-a6fc-590e50b39ef4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-12-16T13:39:23.048Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ff59e020-0137-11e9-a6fc-590e50b39ef4
+[ERROR - 2018-12-16T13:39:25.559Z] Session [ff59e020-0137-11e9-a6fc-590e50b39ef4] - page.onError - msg: ReferenceError: Can't find variable: checkflag
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-16T13:39:25.559Z] Session [ff59e020-0137-11e9-a6fc-590e50b39ef4] - page.onError - stack:
+  isSingleClick (https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=idg_key&AUTHMETHOD=IG&GASF=CERTIFICATE,IG.GRID,IG.OTP&LOCALE=ja_JP&GAREASONCODE=13&GAIDENTIFICATIONID=UserPassword&GARESOURCEID=resourcelistID2&GAURI=https://portal.nap.gsic.titech.ac.jp/GetAccess/ResourceList&Reason=13&APPID=resourcelistID2&URI=https://portal.nap.gsic.titech.ac.jp/GetAccess/ResourceList:149)
+  idgisSetRedirectionCookie (https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=idg_key&AUTHMETHOD=IG&GASF=CERTIFICATE,IG.GRID,IG.OTP&LOCALE=ja_JP&GAREASONCODE=13&GAIDENTIFICATIONID=UserPassword&GARESOURCEID=resourcelistID2&GAURI=https://portal.nap.gsic.titech.ac.jp/GetAccess/ResourceList&Reason=13&APPID=resourcelistID2&URI=https://portal.nap.gsic.titech.ac.jp/GetAccess/ResourceList:37)
+  onsubmit (https://portal.nap.gsic.titech.ac.jp/GetAccess/Login?Template=idg_key&AUTHMETHOD=IG&GASF=CERTIFICATE,IG.GRID,IG.OTP&LOCALE=ja_JP&GAREASONCODE=13&GAIDENTIFICATIONID=UserPassword&GARESOURCEID=resourcelistID2&GAURI=https://portal.nap.gsic.titech.ac.jp/GetAccess/ResourceList&Reason=13&APPID=resourcelistID2&URI=https://portal.nap.gsic.titech.ac.jp/GetAccess/ResourceList:189)
+  dispatchEvent (:0)
+  te (:105)
+  se (:98)
+  og (:123)
+  Ag (:133)
+  (anonymous function) (:133)
+  (anonymous function) (:133)
+  (anonymous function) (:134)
+
+  phantomjs://platform/console++.js:263 in error

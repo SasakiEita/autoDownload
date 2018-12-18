@@ -1,0 +1,6 @@
+/credentials.json
+/settings.yaml
+/sources/_pycache_/
+/sources/std_data.py
+phantomjs.exe
+/sources/geckodriver.exe
