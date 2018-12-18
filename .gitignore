@@ -1,6 +1,6 @@
-__pycache__
+__pycache__/
 std_data.py
-choromedriver.exe
+chromedriver.exe
 credentials.json
 settings.yaml
 phantomjs.exe
