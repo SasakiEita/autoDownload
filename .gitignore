@@ -1,6 +1,9 @@
-/credentials.json
-/settings.yaml
-/sources/_pycache_/
-/sources/std_data.py
+__pycache__
+std_data.py
+choromedriver.exe
+credentials.json
+settings.yaml
 phantomjs.exe
-/sources/geckodriver.exe
+ghostdriver.log
+geckodriver.exe
+geckodriver.log
