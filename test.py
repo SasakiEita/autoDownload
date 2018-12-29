@@ -1,17 +1,12 @@
-#! python
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+import mimetypes, os
 
-# デバッグ用
-import logging
-logging.disable(logging.DEBUG)
-logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
-logging.debug('START')
-# -------------------------------------------------------------------------------------------
+gauth = GoogleAuth()
+gauth.CommandLineAuth()
+# gauth.LocalWebserverAuth()
+drive = GoogleDrive(gauth)
 
-from sources import G_uploader
-import requests, bs4, re, os, time
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
-from sources import login
-
-G_uploader.G_listFiles()
+file_list = drive.ListFile().GetList()
+for f in file_list:
+    print(f['id'])

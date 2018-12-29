@@ -1,0 +1,9 @@
+__pycache__/
+std_data.py
+chromedriver.exe
+credentials.json
+settings.yaml
+phantomjs.exe
+ghostdriver.log
+geckodriver.exe
+geckodriver.log
